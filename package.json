@@ -1,10 +1,14 @@
 {
   "name": "vip-username-bot",
   "version": "1.0.0",
+  "description": "Discord bot to monitor Vip-Member username changes",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "node index.js"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "discord.js": "^14.0.0"
